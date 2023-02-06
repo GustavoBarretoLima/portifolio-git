@@ -1,0 +1,190 @@
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+
+body{
+    
+    background-image: url(../imagem/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center center;   
+      
+}
+
+img{
+   
+border-radius: 100%;
+max-width: 200px;
+border: 1px solid black;
+margin-left: 50px;
+margin-bottom: 20px;
+  
+}
+
+
+
+nav{
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border-style: ridge;
+}
+
+a:active,a:hover {
+    background: rgb(13, 178, 219);
+    transition: .5s;
+}
+
+#info{
+    margin-left: 20px;
+}
+
+.container{
+    line-height: 1.5;
+    width: auto;
+    height: auto;
+    
+    min-width: 500px;
+    color: rgb(241, 238, 6);
+
+
+}
+
+.data{
+    border: 2px solid royalblue;
+    font-size: 25px;
+    padding-top: 30px;
+    height: auto;
+}
+.empresa{
+    border: 2px solid royalblue;
+    font-size: 50px;
+}
+
+.cargo{
+    border-style: outset;
+    border-color: rgb(9, 155, 240);
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.curso{
+    font-size: 35px;
+}
+h1{
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+h4{
+    color: white;
+    font-size: 35px;
+    line-height: 5;
+    border-color: aqua;
+    border-radius: 3px;
+    
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.sobremim{  
+    margin-top: 50px;
+    margin-left: 10%;
+    line-height: 1;
+    text-align: left;       
+    width: auto;
+    height: auto;    
+    min-width: 500px;
+
+}
+
+#tpc{
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    
+}
+#sm{
+    font-size: 25px;
+    text-align: left;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+   
+    
+}
+
+p#pro{
+    font-size: 25px;
+    border: 2px solid white;
+    border-color: aliceblue;
+    border-style: dotted;
+    float: left;
+    margin-top: 100px;
+    
+    
+}
+
+img#html{
+    float: left;
+}
+
+
+.icons ul{
+    display: flex;
+    float: right;
+    
+    
+}
+
+.icons ul li{
+  list-style-type: none;
+}
+.icons ul a{
+    display: block;
+    padding: 10px;
+    background: none;
+    font-size: 50px;
+    color: white;
+}
+
+.icons ul a:hover{
+    color: rgb(105, 81, 238);
+    
+}
+
+
+.icons a:hover > i{
+    transform: scale(1.6)rotate(25deg);
+    
+}
