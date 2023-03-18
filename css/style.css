@@ -22,8 +22,13 @@ border-radius: 100%;
 max-width: 200px;
 border: 1px solid black;
 margin-left: 50px;
-margin-bottom: 20px;
-  
+margin-bottom: 20px;  
+}
+
+#breve{
+    max-width: 300px;
+    margin-left: 500px;
+    margin-top: 300px;
 }
 
 
@@ -188,3 +193,33 @@ img#html{
     transform: scale(1.6)rotate(25deg);
     
 }
+
+.barra{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f1eeee;
+    float: right;
+    margin-left: 0px;
+    margin-right: 650px;
+    margin-top: 100px;   
+}
+.barra div{
+    height: 100%;
+    border-radius: 10px;
+    background-color: black;
+    width: 75%;
+    margin-top: -16px; 
+}
+.barra div#basico{
+    height: 100%;
+    border-radius: 10px;
+    background-color: black;
+    width: 50%;
+    margin-top: -16px; 
+
+}
+em{
+    color:rgb(207, 243, 6)
+}
+
